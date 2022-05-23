@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Owl Carousel</title>
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/owl.carousel.min.css">
+ <link rel="stylesheet" href="css/owl.theme.default.min.css">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+<div class="container">
+ <div class="owl-carousel owl-theme items_all">
+  <div class="item photo"><img src="images/1.jpg" alt=""></div>
+  <div class="item photo"><img src="images/10.jpg" alt=""></div>
+  <div class="item photo"><img src="images/11.png" alt=""></div>
+  <div class="item photo"><img src="images/12.jpg" alt=""></div>
+  <div class="item photo"><img src="images/13.jpg" alt=""></div>
+  <div class="item photo"><img src="images/14.jpg" alt=""></div>
+  <div class="item photo"><img src="images/15.jpg" alt=""></div>
+  <div class="item photo"><img src="images/16.jpg" alt=""></div>
+  <div class="item photo"><img src="images/17.jpg" alt=""></div>
+  <div class="item photo"><img src="images/18.jpg" alt=""></div>
+  <div class="item photo"><img src="images/19.jpg" alt=""></div>
+  <div class="item photo"><img src="images/20.jpg" alt=""></div>
+  <div class="item photo"><img src="images/3.jpg" alt=""></div>
+  <div class="item photo"><img src="images/4.jpg" alt=""></div>
+  <div class="item photo"><img src="images/7.jpg" alt=""></div>
+</div>
+</div>
+
+ <script src="js/jquery-3.6.0.min.js"></script>
+ <script src="js/owl.carousel.min.js"></script>
+ <script>
+      $('.owl-carousel').owlCarousel({
+       loop:true,
+       margin:10,
+       nav:true,
+       responsive:{
+           0:{
+               items:1
+           },
+           600:{
+               items:3
+           },
+           1000:{
+               items:4
+           }
+       }
+   })
+ </script>
+</body>
+</html>
